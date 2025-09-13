@@ -185,3 +185,11 @@
             -> Represents nothing, i.e., absence of value
 
 -> NOTE : All the above are predefined data types, we can create our custome data types based on requirements
+
+-> NOTE : Strings, Sequence Types (***)
+
+
+3rd Sep 2025
+============
+
+-> 
