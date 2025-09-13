@@ -98,3 +98,146 @@ student_class = 8
 student_school = "DPS"
 print(f"My name is {student_name}, I am studying in {student_class} class in {student_school} school ")
 
+
+# Operators
+
+# Arithmetic Operators
+n1 = 3
+n2 = 2
+print(f"Sum of {n1} and {n2} is: {n1+n2}")
+print(f"Difference of {n1} and {n2} is: {n1-n2}") 
+print(f"Product of {n1} and {n2} is: {n1*n2}")
+print(f"Division of {n1} and {n2} is: {n1/n2}")
+print(f"Modulus of {n1} and {n2} is: {n1%n2}")
+print(f"Floor division of {n1} and {n2} is: {n1//n2}")
+print(f"Exponential of {n1} and {n2} is: {n1**n2}")
+
+# without Compound Assignment Operator
+x = 10
+x = 10+5
+print(x)
+
+# with Compound Assignment Operator
+x = 10
+x += 5 # x = x+5
+print(x)
+
+x = 10
+x *= 5 # x = x*5
+print(x)
+
+# Comparison Operators
+n1 = 3
+n2 = 2
+n3 = 3
+print(n1 == n2)
+print(n1 == n3)
+print(n1 >= n2)
+print(n1 != n2)
+
+# Logical Operators
+x = 7
+y = 5
+a = 5
+b = 9
+
+resultAnd = x > y and a < b # T & F --> F
+print(resultAnd)
+
+resultOr = x > y and a < b # T & F --> T
+print(resultOr)
+
+resultNot = x > y or a < b # T & F --> T
+print(not resultNot) # T --> F 
+
+# Membership Operator
+a_list = [10,20,30]
+is_present = 10 in a_list
+print(is_present)
+is_present = 100 in a_list
+print(is_present)
+not_present = 100 not in a_list
+print(not_present)
+
+
+data = "hello"
+is_present = "l" in data
+print(is_present)
+is_present = "a" in data
+print(is_present)
+
+
+# Identity Operator
+n1 = 10
+n2 = 10
+print(id(n1))
+print(id(n2))
+print(n1 is n2)
+
+n1 = [10,20,30]
+n2 = [10,20,30]
+print(n1 == n2) # Comparision Operator
+print(id(n1))
+print(id(n2))
+
+print(n1 is n2) # Identity Operator
+print(n1 is not n2) # Identity Operator
+
+# Data Type
+num = 10 #int
+print(type(num))
+
+num = 10.0 #float
+print(type(num))
+
+num = 1 + 2j # complex
+print(type(num))
+
+data = "help" 
+print(type(data))
+
+# data = h # # NameError: name 'h' is not defined
+print(type(data))
+
+data = "h" # string
+print(type(data))
+
+CanVote = True # Boolean 
+print(type(CanVote))
+
+list_nums = [10, 20, 30, 10] # list
+print(list_nums)
+list_colrs = ["blue", "red", "green"] 
+print(type(list_nums))
+print(type(list_colrs))
+
+list_nums = (10, 20, 30, 10) # tuple
+print(list_nums)
+list_colrs = ("blue", "red", "green")
+print(type(list_nums))
+print(type(list_colrs))
+
+list_nums = {10, 20, 30, 10} # set (deletes the duplicate, only preserves unique data)
+print(type(list_nums))
+print(list_nums)
+
+list_nums = {"n1":10,"n2":20,"n3":30} # dictionary
+print(type(list_nums))
+print(list_nums)
+
+list_nums = {10:10,20:20,30:30}
+print(list_nums)
+
+list_nums = {10:10,10:20,30:30}
+print(list_nums)
+
+x = None
+print(type(x))
+print(x)
+
+class Student: # class
+    pass # skip - do nothing
+
+edify_student = Student()    # object
+
+print(type(edify_student))

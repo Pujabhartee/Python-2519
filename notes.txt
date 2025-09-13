@@ -118,7 +118,70 @@
       -> not - negates the boolean value, if value is True then its result is False
 
    -> Membership Operators
+       
+       -> It's used to test if a sequence is present in object 
+          -> in : returns True if the sequence has specified value
+          -> not in : returns True if the sequence has no specified value.
 
    -> Identity Operators
 
-   -> Bitwise Operators (Generally used in low level languages)
+      -> It's used to compare objects
+      -> NOTE: Not comparing the values (If you want to compare values use ==)
+
+         -> is : Returns True if both variables are pointing to same memory block
+         -> is not : Returns True if both variables are not pointing to same memory block
+
+      -> NOTE: Is Python 100% Object Oriented Language or not ? Yes
+               -> In python everything is an object.
+              
+              -> Java has primitive data types
+
+   -> Bitwise Operators (Generally used in Binary Level (low level languages) )
+
+
+26th Aug
+=========
+
+-> Data Types
+   
+   -> Data Types are categories that define, what kind of data a variable can hold
+
+   -> Numeric Types:
+      
+      -> Numbers with or without decimat points
+
+          -> Integer : Whole Numbers 0,1,-1,199, etc 
+          -> Floats : decimal numbers 3.14, 10.5, 2.0 etc
+          -> Complex : Complex numbers like in maths
+                       Math : a + ib (i - imaginary)
+                       Python : a + bj (j - imaginary)
+
+   -> Text Type:
+
+          -> String : A sequence of characters declared between ' ' or " "
+          -> NOTE : Python doesn't support single character data type
+    
+    -> Boolean Types: 
+          
+          -> Returns True or False
+
+    -> Sequence Types:
+
+          -> String is also a sequence type
+          -> List : Multiple values to be stored as a sequence, represented in [] --> Mutable (Changable)
+          -> Tuples : Multiple values to be stored as a sequence, represented in () --> Immutable (Not Changable)
+          -> Range : 
+
+    -> Set Type:
+           
+           -> Set : Muliple Values to be stored as a sequence, represented in {} --> Mutable, Unique data only
+           -> Frozen Set : Muliple Values to be stored as a sequence, represented in {} --> Unique data only & Immutable
+
+    -> Dictionary(Mapping) Type:
+           
+           -> Dictionary : Multiple values to be stored as a sequence of key and value pairs, represented in {}
+    
+    -> None Type:
+            -> Represents nothing, i.e., absence of value
+
+-> NOTE : All the above are predefined data types, we can create our custome data types based on requirements
