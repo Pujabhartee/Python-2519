@@ -279,3 +279,36 @@ print(f"Student Current Attendance: {student_attendance}")
 print(f"Student Passed: {student_passed}")
 print(f"Student Awarded: {award_eligibility}")
 
+# Type Conversion -> Automatic / Implicit
+a = 10
+b = 3.5
+c = a + b # 13.5
+print(c)
+print(type(c))
+
+# Type Casting -> Manual / Explicit
+x = 100
+y = x
+print(y)
+print(type(y))
+# explicit conversion
+y = float(x)
+print(y)
+print(type(y))
+y = str(x)
+print(y)
+print(type(y))
+
+# Data loss can occur
+r = 3.14
+value = int(r)
+print(value)
+
+# strings to numbers
+value = "100"
+print(type(value))
+# print(value/10). # TypeError: unsupported operand type(s) for /: 'str' and 'int'
+print(int(value)/10)
+
+value = "hundred"
+# value_int = int(value) # ValueError: invalid literal for int() with base 10: 'hundred'

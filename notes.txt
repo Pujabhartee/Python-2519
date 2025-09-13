@@ -192,4 +192,16 @@
 3rd Sep 2025
 ============
 
--> 
+-> Type Conversion & Type Casting
+
+   -> The above are used to convert. values from one data type to another data type
+
+   -> Type Conversion : Implicit / Automatic - meaning python by default performs
+                        conversions when it's safe and there is no data loss
+           -> Widening : conversion of smaller data types to larger
+
+    -> Type Casting : Explicit / Manually done by developer using built in functions
+           -> Narrowing : Conversion of larger data types to smaller
+               -> int() -> Converst to interger --> int(3.15) --> 3
+               -> float() ->  Converst to float --> float(3) --> 3.0
+               -> str() --> Converst to string --> str(100) --> "100"
