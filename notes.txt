@@ -205,3 +205,45 @@
                -> int() -> Converst to interger --> int(3.15) --> 3
                -> float() ->  Converst to float --> float(3) --> 3.0
                -> str() --> Converst to string --> str(100) --> "100"
+
+
+4th Sep 2025
+============
+
+-> Control Structures / Statements
+
+    -> Control Structures helps you to control the flow of execution in programm
+
+    -> Categories 
+          
+            -> Decision Making Statements (Conditional Statements)
+            -> Looping Statements (Iteretive Statements)
+            -> Branching Statements (Jump Statements)
+
+    -> Indentation : Refers to spaces to the begining of the line that will
+                     define code blocks (conditions, loops, functions, classes etc)
+         -> At least one space or recommended is 4 spaces
+         -> All lines in the same block must have same Indentation
+         -> Improper Indentation : Syntax Error
+         
+    -> input() function : takes user input from keyboard as a string
+               -> variable =input("Enter Some Value")
+
+
+    -> Conditional / Decision Making Statements
+            
+            -> Used to evaluate a condition (True/False)
+
+            -> if statemment : Run block of code if condition is True
+            -> if else : Runs one block of code if condition is true and
+                         runs another block of code if condition is false
+            -> elif ladder : Used to check multiple conditions
+            -> match-case : alternative to if-else, when you have multiple conditions
+                             (this is introduced in python 3.1 onwards)
+
+        -> Ternary Operator : also called as Conditional Operator, allows you to
+                              write short hand if-else statement, generally used for single expressions
+
+                  -> Syntax : value_if_true if condition else value_if_false
+
+    -> 
