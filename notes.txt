@@ -239,11 +239,28 @@
                          runs another block of code if condition is false
             -> elif ladder : Used to check multiple conditions
             -> match-case : alternative to if-else, when you have multiple conditions
-                             (this is introduced in python 3.1 onwards)
+                              (this is introduced in python 3.1 onwards)
 
         -> Ternary Operator : also called as Conditional Operator, allows you to
                               write short hand if-else statement, generally used for single expressions
 
                   -> Syntax : value_if_true if condition else value_if_false
 
-    -> 
+5th Sep, 2025
+==============
+    
+    -> Nested Conditionals : Conditionals inside Conditionals
+
+-> Looping Statements (Iteretive Statements):
+    
+     -> Used to execute a block of code repeatedly, based on a condition.
+
+         -> For repeatative tasks and automation tasks
+
+     -> while loop : Runs a block of code, as long as the specified condition is True
+
+     -> for loop : Used to Iterate over a Sequence(Strings, Lists, Tuples, Range etc)
+
+ -> dir() : used to list all the valid attributes and functionalities
+ -> range() : used to generate a sequence of numbers
+             -> support Index    (range(10) --> 0 to 9)
