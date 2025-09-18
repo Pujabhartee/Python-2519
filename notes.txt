@@ -240,16 +240,15 @@
             -> elif ladder : Used to check multiple conditions
             -> match-case : alternative to if-else, when you have multiple conditions
                               (this is introduced in python 3.1 onwards)
-
-        -> Ternary Operator : also called as Conditional Operator, allows you to
+       -> Nested Conditionals : Conditionals inside Conditionals
+       
+       -> Ternary Operator : also called as Conditional Operator, allows you to
                               write short hand if-else statement, generally used for single expressions
 
                   -> Syntax : value_if_true if condition else value_if_false
 
 5th Sep, 2025
 ==============
-    
-    -> Nested Conditionals : Conditionals inside Conditionals
 
 -> Looping Statements (Iteretive Statements):
     
@@ -261,6 +260,38 @@
 
      -> for loop : Used to Iterate over a Sequence(Strings, Lists, Tuples, Range etc)
 
+-> Nested Loops : Loops inside Loops
+
+6th Sep 2025
+============
  -> dir() : used to list all the valid attributes and functionalities
  -> range() : used to generate a sequence of numbers
              -> support Index    (range(10) --> 0 to 9)
+
+ -> range(start,stop,step)
+
+      -> start : starting value by default is 0
+      -> stop : ending value (excluded)
+      -> step : increment by default is 1
+
+   -> few examples
+
+      -> range(5) : 0 1 2 3 4
+      -> range(1,6) : 1 2 3 4 5
+      -> range(1,6,1) : 1 2 3 4 5
+      -> range(2,10,2) : 2 4 6 8
+
+   -> To do the step in reverse use -1
+
+      -> range(10,1,-1) : 10 9 8 7 6 5 4 3 2
+      -> range(10,1,-2) : 10 8 6 4 2
+
+-> Branching Statements (Jump Statements) 
+   
+     -> Used to control the flow of iterations inside the loops
+
+         -> break : exit the loop entirely
+         -> continue : skips the current iteration and continue the loop
+         -> pass : does nothing, generally used as place holder
+
+   
