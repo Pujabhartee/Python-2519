@@ -155,7 +155,7 @@ for num in range(5):
 
 # pass : does nothing, generally used as place holder
 if 5>9:
-    pass
+    pass # (if we left blank we get error)
 
 # pass : use for future
 for num in range(5):
