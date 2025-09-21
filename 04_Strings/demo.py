@@ -93,9 +93,80 @@ print("----")
 
 # [start:stop:step]
 print(text[0:6:2]) # -->pto
-print(text[0:3]) # start : stop --> pyt
-print(text[2:5]) # start : stop --> tho
-print(text[0:])  # strat : stop  --> python
-print(text[:])   # start : stop  --> python
-print(text[:3]) #  : stop --> pyt
+print(text[0:3]) # start(0) : stop(3) --> pyt
+print(text[2:5]) # start(2) : stop(5) --> tho
+print(text[0:])  # start(0) : end  --> python
+print(text[:])   # start : end  --> python
+print(text[:3]) #  start : stop(3) --> pyt
 
+print("------")
+# Negative Slicing
+text = "python"
+
+        #  0   1  2  3  4  5 (positive indexing)
+        #  p   y  t  h  o  n
+        # -6  -5 -4 -3 -2 -1  (negative indexing)
+
+print(text[-1])
+print(text[-1:])
+print(text[-4:-1]) # tho
+
+print(text[-4:-1:1]) #tho
+print(text[-4:-1:-1]) # empty
+print(text[-4:-6:-1]) # ty
+
+print(text[1:4:-1]) #empty
+
+# Reversing String
+print(text[::-1]) # end:start --> nohtyp 
+ #same thing by logic
+text = "python"
+reversed_text = ""
+for char in text:
+    reversed_text = char + reversed_text #adding each character to front
+print("Reversed text:",reversed_text)
+
+
+# Reassigning
+text = "Hello"
+print(text)
+
+text = "Hi"
+print(text)
+
+# String Immutability
+text = "Hello"
+print(text)
+# # modifying hello to Hello
+# text[0]= "H"  # TypeError: 'str' object does not support item assignment
+# print(text)
+
+# String Concatenation
+s1 = "Hello"
+s2 = "Good Morning"
+print(s1+s2)  # HelloGood Morning
+
+age = 30
+# print("My age is" + age) # TypeError: can only concatenate str (not "int") to str
+print("My age is", age) # My age is 30
+print("My age is", + age) # My age is 30
+print("My age is" + str(age)) # My age is30 
+
+# String Repetition 
+text = "Ha"
+laugh = "HaHaHaHa"
+print(laugh)
+
+laugh_hard = text * 10
+print(laugh_hard)
+
+# String Methods
+text = "Ha"
+print(dir(text))
+
+# simulate gmail functionality using strings -> gmail.com
+user_given_email = "Puja2Bharti"
+format_email = user_given_email.lower() +"@gmail.com"
+print("Gmail Auto Format ID: "+ format_email)
+
+# simulate PAN creation  -> https://www.pan.utiitsl.com/panonline_ipg/forms/csfPan.html/csfPreForm
