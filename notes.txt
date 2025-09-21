@@ -202,9 +202,9 @@
 
     -> Type Casting : Explicit / Manually done by developer using built in functions
            -> Narrowing : Conversion of larger data types to smaller
-               -> int() -> Converst to interger --> int(3.15) --> 3
-               -> float() ->  Converst to float --> float(3) --> 3.0
-               -> str() --> Converst to string --> str(100) --> "100"
+               -> int() -> Convert to interger --> int(3.15) --> 3
+               -> float() ->  Convert to float --> float(3) --> 3.0
+               -> str() --> Convert to string --> str(100) --> "100"
 
 
 4th Sep 2025
@@ -295,3 +295,52 @@
          -> pass : does nothing, generally used as place holder
 
    
+8th Sep 2025
+============
+
+-> Strings : One of the most important and widely used data type.
+
+   -> In python, String is a sequence of character enclosed within single or double quote.
+       We can use triple quotes also but not recommended.
+
+   -> NOTE: triple quotes are recommended for multi line strinngs.
+
+   -> If you want to use ' inside a string, enclose with double quotes.
+   
+   -> If you want to use " inside a string, enclose with single quotes.
+
+   -> If you want to use both ' and " quote inside a string, then use triple-singe or triple-double quotes.
+
+
+-> Indexing in Python
+    
+    -> Python allows you to access each character in a string using an index numbers
+
+    -> Index Starts from 0 (zero)
+
+    -> Inndexing goes in both positive and negative directions tooo
+
+    -> text = "python"
+        
+         0   1  2  3  4  5 (positive indexing)
+         p   y  t  h  o  n
+        -6  -5 -4 -3 -2 -1  (negative indexing)
+
+        -> print(text[index])
+        -> print(text[4]) # o 
+
+   -> If index is not given properly, leads to Errors
+
+   -> NOTE: We have a predefined function len() --> return number of items in an object
+    
+   -> len() -> doesn't work with numbers
+
+-> Slicing In Python : Slicing means cutting a substring from the original string using index
+
+   -> To access range of characters in a string
+
+   -> string[start:stop:step]
+         
+         start: index to start from (inclusive)
+         stop: index to stop at (exclusive)
+         step: how many charcter to step (default is 1)
